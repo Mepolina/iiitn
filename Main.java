@@ -8,14 +8,11 @@ public class Main {
             int[][] array = new int[ku][ku];
             for (int i = 0; i < ku; i++) {
                 for (int j = 0; j < ku; j++) {
-                    array[i][j] = losowe.nextInt(10);
-                }
-            }
-            return array;
-        }
-
+                    array[i][j] = losowe.nextInt(10);}
+   }
+            return array; }
+        
         public static void main(String[] args) {
-
             Scanner pu = new Scanner(System.in);
             System.out.print("wpisz liczbe : ");
             int ku = pu.nextInt();
